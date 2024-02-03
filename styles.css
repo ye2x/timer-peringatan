@@ -9,7 +9,7 @@ body {
 }
 
 .timer {
-  font-size: 10vw;
+  font-size: 30vw;
   margin-bottom: 20px;
   white-space: nowrap; /* Mencegah pemisahan baris pada elemen */
 }
