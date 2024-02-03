@@ -9,8 +9,9 @@ body {
 }
 
 .timer {
-  font-size: 10vw; /* Menggunakan ukuran font sebagai persentase dari lebar viewport */
-  margin-bottom: 15px;
+  font-size: 10vw;
+  margin-bottom: 20px;
+  white-space: nowrap; /* Mencegah pemisahan baris pada elemen */
 }
 
 .settings {
@@ -23,7 +24,7 @@ label {
 }
 
 input {
-  width: 20vw; /* Menggunakan lebar input sebagai persentase dari lebar viewport */
+  width: 20vw;
 }
 
 button {
@@ -34,10 +35,10 @@ button {
 /* Media query untuk layar yang lebih kecil */
 @media screen and (max-width: 600px) {
   .timer {
-    font-size: 15vw; /* Ukuran font yang lebih besar pada layar kecil */
+    font-size: 15vw;
   }
 
   input {
-    width: 40vw; /* Lebar input yang lebih besar pada layar kecil */
+    width: 40vw;
   }
 }
