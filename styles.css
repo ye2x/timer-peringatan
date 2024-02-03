@@ -10,7 +10,7 @@ body {
 
 .timer {
   font-size: 10vw; /* Menggunakan ukuran font sebagai persentase dari lebar viewport */
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .settings {
