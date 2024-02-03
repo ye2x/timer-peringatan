@@ -25,7 +25,7 @@ function startTimer() {
       updateTimer(duration);
 
       // Memainkan suara setiap detik ketika hitungan mundur mencapai 10, 9, 8, dan seterusnya
-      if (duration <= 10) {
+      if (duration <= 5) {
         playBeep();
       }
     }
